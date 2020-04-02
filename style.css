@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding:0;
+    } 
+
+body
+{
+    height: 1200px;
+    display: flex;
+    flex-flow: row nowrap;
+  
+        
+}
+
+/*partie gauche */
+
+#cvgauche
+{
+    background-color: #FECA07;
+    width:20vw;
+    height:1450px    
+}
+
+#contact p
+{
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
+
+#photo
+{
+    width: 300px;
+    height:auto;
+    margin-left: auto;
+    margin-right:  auto
+}
+
+#contact p
+{
+    margin-top:5%;
+}
+
+#apropos p
+{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 20%;
+}
+
+#apropos
+{
+
+    margin-top: 5px;
+    height: 48vh
+}
+
+
+#loisir
+{
+    margin-top: 79%;
+}
+
+#vignette
+{
+display: flex;
+justify-content: space-around;
+margin-top: 5%;
+}
+
+h1
+{
+    background-color:#404040;
+    color: #FECA07;
+    text-align: center;
+    font-size: 150%;
+}
+
+
+
+
+/* partie droite */
+
+#cvdroit
+{
+
+    align-content: center;
+    justify-content:flex-start;
+    flex-direction: column;
+
+}
+#cvdroit
+{
+    height: 100vh;
+    width: 80%;
+font-size: 90%
+}
+
+header
+{
+    text-align: left;
+    margin-left: 50px;
+    font-size: 150%;
+    height: 20vh;
+    text-align: justify;
+}
+
+header h2 span
+{
+    color:#FECA07
+}
+header h3 span
+{
+    text-decoration: underline #FECA07  ;
+}
+
+h3
+{
+font-size: 150%;
+margin-left: 7%;
+margin-top: 2%;
+
+
+
+}
+
+#formation
+
+
+#experience
+
+
+#recommandations
+{
+    margin-top: 20%;
+}
+
+
+
+
+.underline
+{
+    border:1px #FECA07 solid;
+    margin-left:5% ;
+    margin-right: 5%;
+}
+
+
+
+.dates
+{
+    margin-top: 1.5%;
+    margin-left: 2.5%;
+}
+.commentaires
+{
+margin-left: 30%
+}
+
+ul 
+{
+    list-style: none;
+ 
+}
+
+
+
+#texter
+{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-top: 2%;
+}
+  
