@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding:0;
+  
+    } 
+body
+{
+    font-family: lato;
+}
+
+/* partie header*/
+
+header
+{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 200%;
+}
+
+
+
+#photo
+{
+    width: 100%;
+    border-radius: 51%;
+    
+}
+
+#maintitle
+{
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+
+header h1 span
+{
+    color:#FECA07
+}
+
+header h2 span
+{
+    text-decoration: underline #FECA07;
+}
+
+header h2
+{
+font-size: 90%;
+}
+
+/* partie centrale */
+
+main
+{
+display: flex;
+font-size: 150%;
+}
+
+.leftpart
+    {
+        width: 20%;
+        background-color: #FECA07;
+    }
+
+ h3
+ {
+background-color: #404040;
+color:#FECA07;
+text-align: center;
+font-size: 150%;
+ }   
+
+.leftpart ul
+{
+    padding-left: 10%;
+    list-style: none;
+    padding-bottom: 10%;
+    font-size: 90%;
+
+}
+
+.leftpart li
+{
+padding-top: 10%;
+}
+
+
+.leftpart p
+{
+    padding-left: 10%;
+    padding-top: 20%;
+    padding-right: 10%;
+    font-size: 90%;
+}
+
+
+.rightpart
+{
+    width: 80%
+}
+
+.rightpart h6
+{
+    margin-top: 1%;
+}
+
+h4
+{
+    border-bottom:2px #FECA07 solid;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 1%;
+    font-weight: bold;
+    font-size: 120%;
+ 
+}
+
+
+
+h5
+{
+    font-weight: bolder;
+    font-size: 110%;
+}
+
+
+
+.rightpart p
+{
+    margin-top: 1%;
+    font-size: 85%;
+}
+
+
+
+
+.flex
+{
+    margin-left: 5%;
+    padding-right: 5%;
+    padding-top:3%;
+    padding-bottom: 3%;
+
+}
+
+  
+.yellow
+{
+color: #FECA07;
+}
+
+.flex
+{
+    display: flex;
+}
+
+.icone
+{
+    width:30%;
+    display: flex;
+    align-items:baseline;
+    font-weight: bold;
+    font-size: 90%;
+    
+}
+.icone p
+{
+    padding-left: 3%;
+}
+
+.comment
+{
+    width:70%
+}
+
+
+/*bas de page*/
+
+footer
+{
+display:flex;
+font-size: 150%;
+}
+
+.hobbies
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10%;
+}
+
+.recommandations
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
