@@ -209,6 +209,11 @@ font-size: 150%;
 
     }
 
+    header
+    {
+        font-size: 145%;
+    }
+
     main
     {
         display: flex;
