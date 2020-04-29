@@ -310,7 +310,79 @@ font-size: 150%;
 @media screen and (max-width: 950px)
 {
 
+    header
+    {
+        display: flex;
+        flex-wrap: nowrap;
+        font-size: 200%;
+    }
+    .picture
+    {
+        width:50%;
+    }
+    #maintitle
+    {
+        width: 50%;
+    }
 
+    main
+    {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .leftpart
+    {
+        width:100%;
+    }
+
+    .leftpart ul
+    {
+    
+     
+        padding-bottom: 6%;
+        text-align: center;
+        padding-left: 0%;
+    
+    }
+    .leftpart p
+    {
+       
+        padding-top: 10%;
+        padding-bottom: 10%;
+      
+        
+    }
+
+
+    .rightpart
+    {
+        width:100%
+    }
+
+
+    h4
+    {
+        margin-left: 0%;
+        margin-right: 0%; 
+        text-align: center; 
+    }
+
+
+    footer
+    {
+    display:flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    }
+
+    .hobbies
+    {
+        padding-top: 5%;
+        padding-bottom: 5%;
+
+    }
 
 
 }
