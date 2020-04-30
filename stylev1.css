@@ -202,16 +202,13 @@ font-size: 150%;
 
 @media screen and (max-width: 480px)
 {
-    body
-    {
-        display: flex;
-        flex-direction: column;
 
-    }
 
     header
     {
         font-size: 145%;
+        display: flex;
+        flex-direction: column;
     }
 
     main
@@ -322,7 +319,7 @@ font-size: 150%;
     }
     #maintitle
     {
-        width: 50%;
+        width: 80%;
     }
 
     main
@@ -346,6 +343,13 @@ font-size: 150%;
         padding-left: 0%;
     
     }
+
+
+    .leftpart li
+    {
+    padding-top: 4%;
+    }
+
     .leftpart p
     {
        
@@ -366,7 +370,14 @@ font-size: 150%;
     {
         margin-left: 0%;
         margin-right: 0%; 
+        padding-top: 5%;
+        margin-bottom: 5%;
         text-align: center; 
+    }
+
+    .comment
+    {
+        padding-left: 9%;
     }
 
 
@@ -375,6 +386,11 @@ font-size: 150%;
     display:flex;
     flex-direction: column-reverse;
     text-align: center;
+    }
+
+    .recommandations
+    {
+        padding-bottom: 6%;
     }
 
     .hobbies
