@@ -202,13 +202,14 @@ font-size: 150%;
 
 @media screen and (max-width: 480px)
 {
-
+     
 
     header
     {
         font-size: 145%;
         display: flex;
         flex-direction: column;
+       
     }
 
     main
@@ -362,7 +363,7 @@ font-size: 150%;
 
     .rightpart
     {
-        width:100%
+        width:96%
     }
 
 
