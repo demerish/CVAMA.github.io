@@ -6,6 +6,8 @@
 body
 {
     font-family: lato;
+    height:1684px ;
+    width: 1190px;
 }
 
 /* partie header*/
@@ -13,24 +15,28 @@ body
 header
 {
     display: flex;
-    flex-wrap: wrap;
     font-size: 200%;
+    height: 330px
 }
 
 
 
 #photo
 {
-    width: 100%;
-    border-radius: 51%;
-    
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 3px solid #DAAF12;
+    margin-top: 3rem;
+    margin-left: 5rem;
 }
 
 #maintitle
 {
-    padding-top: 5%;
-    padding-left: 5%;
-    padding-bottom: 5%;
+    padding-top: 120px;
+    padding-left: 60px;
+    padding-bottom: 120px;
+    widows: 807px;;
 }
 
 
@@ -41,12 +47,14 @@ header h1 span
 
 header h2 span
 {
-    text-decoration: underline #FECA07;
+    border-bottom: 2px solid #FECA07;
+    padding-bottom: 0.3rem;
 }
 
 header h2
 {
 font-size: 90%;
+color: #404040;
 }
 
 /* partie centrale */
@@ -54,30 +62,36 @@ font-size: 90%;
 main
 {
 display: flex;
-font-size: 150%;
+font-size: 100%;
 }
 
 .leftpart
     {
-        width: 20%;
+        width: 383px;
         background-color: #FECA07;
     }
 
  h3
  {
-background-color: #404040;
-color:#FECA07;
-text-align: center;
-font-size: 150%;
+    background-color: #404040;
+    color: #FECA07;
+    text-align: center;
+    font-size: 175%;
+    font-weight: bold;
+    height: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
  }   
 
 .leftpart ul
 {
-    padding-left: 10%;
+    padding-left: 2rem;
     list-style: none;
-    padding-bottom: 10%;
-    font-size: 90%;
+    padding-bottom: 2rem;
+    font-size: 1rem;
     overflow-wrap: break-word;
+    font-weight: bold;
+    color: #404040;
 
 }
 
@@ -90,16 +104,18 @@ padding-top: 10%;
 
 .aboutme
 {
-    padding-left: 10%;
-    padding-top: 20%;
-    padding-right: 10%;
-    font-size: 90%;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    font-size: 1.2rem;
+    color: #404040;
+    text-align: justify;
 }
 
 
 .rightpart
 {
-    width: 80%
+    width: 807px
 }
 
 .rightpart h6
@@ -109,14 +125,16 @@ padding-top: 10%;
 
 h4
 {
-    border-bottom:2px #FECA07 solid;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-bottom: 1%;
+    border-bottom: 2px #FECA07 solid;
+    margin-left: 4rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
     font-weight: bold;
-    font-size: 120%;
- 
+    font-size: 184%;
 }
+ 
 
 
 
@@ -139,10 +157,12 @@ h5
 
 .flex
 {
-    margin-left: 5%;
-    padding-right: 5%;
-    padding-top:3%;
-    padding-bottom: 3%;
+    margin-left: 4rem;
+    padding-right: 2.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #404040;
+    font-size: 1.3rem;
 
 }
 
@@ -159,21 +179,23 @@ color: #FECA07;
 
 .icone
 {
-    width:30%;
+    width: 17rem;
     display: flex;
-    align-items:baseline;
+    align-items: baseline;
     font-weight: bold;
     font-size: 90%;
-    
 }
+    
+
 .icone p
 {
-    padding-left: 3%;
+    padding-left: 1rem;
 }
 
 .comment
 {
-    width:70%
+    width: 30rem;
+    padding-top: 1rem;
 }
 
 
@@ -182,37 +204,75 @@ color: #FECA07;
 footer
 {
 display:flex;
-font-size: 150%;
+font-size: 100%;
+}
+
+.hob
+{
+    padding-top: 6rem;
 }
 
 .hobbies
 {
     display: flex;
     justify-content: space-around;
-    padding-top: 10%;
+    padding-top: 4rem;
+
+}
+
+.grey
+{
+    color: #404040;
 }
 
 .recommandations
 {
     display: flex;
     justify-content: space-around;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    font-size: 1.3rem;
+}
+
+.recommandations h5
+{
+    font-size: 89%;
+    color:#404040;
+    padding-bottom: 0.5rem;
+}
+.recommandation1
+{
+margin-left: 4rem;
+}
+
+.recommandation2
+{
+margin-left: 12rem
 }
 
 /* medias queries */
 
 @media screen and (max-width: 480px)
 {
-     
+     body 
+     {
+         height:1200px;
+         width:410px 
+     }
 
     header
     {
         font-size: 145%;
         display: flex;
-        flex-direction: column;
-       
+        flex-direction: column-reverse;
+        height: 40rem;
     }
+
+    #photo
+{
+    margin-left: 6rem;
+    margin-bottom: 3rem;
+}
 
     main
     {
@@ -222,6 +282,14 @@ font-size: 150%;
         
 
     }
+
+    .leftpart ul
+{
+    padding-left: 1rem; 
+    padding-right: 1rem;
+  
+
+}
         .aboutme
     {
         padding-top: 10%;
@@ -276,7 +344,10 @@ font-size: 150%;
     font-size: 120%;
     }
 
-    
+    .hob
+    {
+padding-top: 0rem;
+    }
 
     .hobbies
     {
@@ -303,8 +374,9 @@ font-size: 150%;
     }
     .recommandation2
     {
-        padding-left: 2%;
+        padding-left: -3rem;
         padding-top: 10%;
+        margin-left: 4rem;
     }
 }
 
@@ -321,6 +393,13 @@ font-size: 150%;
     {
         width:50%;
     }
+
+    #photo
+    {
+margin-left: 12rem;
+    }
+
+
     #maintitle
     {
         width: 80%;
@@ -408,30 +487,3 @@ font-size: 150%;
 }
 
 
-@media all and (min-width: 951px) and (max-width: 1050px)
-{
-    header
-    {
-        display:flex;
-        flex-wrap: nowrap;
-    }
-    #maintitle
-    {
-        width:80%
-    }
-
-    .leftpart
-    {
-        width:30%
-    }
-
-    .leftpart ul
-    {
-    overflow-wrap: break-word;
-    }
-
-    .rightpart
-    {
-        width:86%
-    }
-}
